@@ -42,8 +42,8 @@ from ultralytics import YOLO
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
-YOLO_MODEL_PATH = SCRIPT_DIR / "best.pt"
-RF_MODEL_PATH = SCRIPT_DIR / "crowd_random_forest_v1.pkl"
+YOLO_MODEL_PATH = SCRIPT_DIR / "models/best.pt"
+RF_MODEL_PATH = SCRIPT_DIR / "models/crowd_random_forest_v1.pkl"
 
 CONF_THRESHOLD = 0.25
 IOU_THRESHOLD = 0.70
